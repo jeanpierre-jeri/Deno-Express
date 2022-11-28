@@ -1,0 +1,15 @@
+{
+  "$schema": "https://deno.land/x/denon@2.5.0/schema.json",
+  "allow": ["run", "env", "net", "write", "read"],
+  "scripts": {
+    "start": "index.ts"
+  },
+  "watcher": {
+    "interval": 350,
+    "exts": ["ts", "js", "json"],
+    "match": ["./**/*"]
+  },
+  "logging": {
+    "debug": true
+  }
+}
